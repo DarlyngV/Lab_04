@@ -8,7 +8,7 @@ public class Estudiante implements Serializable {
     private boolean sex;
 
     public Estudiante(String nombre, String cui, boolean sex) {
-        this.CUI = CUI;
+        this.CUI = cui;
         this.nombre = nombre;
         this.sex = sex;
     }
